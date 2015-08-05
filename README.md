@@ -15,6 +15,15 @@ var areFerossAndMafintoshStuckInAnElevator = require('are-feross-and-mafintosh-s
 console.log(areFerossAndMafintoshStuckInAnElevator()) // returns false now because we've rescued!
 ```
 
+#### Asynchronous
+
+```js
+areFerossAndMafintoshStuckInAnElevator.async(function (err, isStuck) {
+  if (err) return console.log(err.message)
+  console.log(areThey)
+})
+```
+
 ## License
 
 MIT
